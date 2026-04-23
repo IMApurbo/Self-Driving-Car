@@ -1523,7 +1523,7 @@ def main():
     if platform.system() == "Linux" and not is_file:
         cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)
 
-    WIN = "openpilot · YOLOP v4.9"
+    WIN = "Autopilot - @IMApurbo"
     if not _init_window(WIN, DISPLAY_W, DISPLAY_H):
         sys.exit(1)
 
